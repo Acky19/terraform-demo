@@ -16,10 +16,10 @@ variable "instance_type" {
 
 variable "key_name" {
   description = "Name of the SSH key pair"
-  default     = "workstation-ssh-key"
+  default     = "workstation"
 }
 
 variable "instance_name" {
   description = "Tag for naming the instance"
-  default     = "Demo Server"
+  default     = "terraform jenkins server"
 }
